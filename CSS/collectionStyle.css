@@ -1,0 +1,83 @@
+body
+{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Assets/background.jpg);
+  height: 100%;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-size: cover;
+  margin:0;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.section {
+    background-color: rgba(10, 10, 10, .8);
+    position: relative;
+    width:80vw;
+    margin-left:10vw;
+    text-align:center;
+    margin-bottom: 2vw;
+  }
+
+  .searchContainer{
+    padding-top: 1vw;
+  }
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1vw;
+}
+
+td, th, .btn {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #333;
+  color: #C0C0C0;
+}
+
+tr:nth-child(even) {
+  background-color: #9C6137;
+}
+
+tr:nth-child(odd) {
+  background-color: #c4b479;
+}
+
+#myInput {
+  background-image: url('../Assets/searchButton.png');
+  background-size: 1.4vw;
+  background-position: 0.5vw 0.5vw;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 1.1vw;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.pager-nav {
+    margin: 16px 0;
+}
+
+.pager-nav span {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.pager-nav span:hover, .pager-nav .pg-selected {
+    background-color: #f9f9f9;
+    border: 1px solid #CCCCCC;
+}

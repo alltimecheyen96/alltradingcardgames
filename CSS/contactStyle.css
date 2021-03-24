@@ -1,0 +1,23 @@
+body
+{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Assets/background.jpg);
+  height: 100%;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-size: cover;
+  margin:0;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.section{
+  position: absolute;
+  width:80vw;
+  margin-left:10vw;
+  background-color: rgba(10, 10, 10, .8);
+}
+
+.container {
+  color: white;
+}
